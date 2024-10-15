@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Restaurant RT</title>
+  </head>
+
+  <body>
+    <!-- En-tête -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Restaurant RT </a>
+        <div class="collapse navbar-collapse justify-content-end">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#">Accueil</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">À propos de nous</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Section Héros -->
+    <section
+      class="hero"
+      style="
+        background-image: url('path/to/your/image.jpg');
+        height: 400px;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+      "
+    >
+      <div class="text-center">
+        <h1>Bienvenue au Restaurant</h1>
+        <a href="#menu" class="btn btn-primary">Découvrez notre menu</a>
+      </div>
+    </section>
+
+    <!-- Section Menu -->
+    <section id="menu" class="container my-5">
+      <h2 class="text-center">Notre Menu</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://lepassplat.fr/wp-content/uploads/2023/05/Tartare-de-Tomates.jpg"
+              class="card-img-top"
+              alt="Plat 1"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Plat 1</h5>
+              <p class="card-text">Description du plat 1.</p>
+              <p class="card-price">€12.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://www.lepieddansleplat.com/websites/c3429b9128296f1e3642266a5863b040/img/plat2_20230220163127.jpg"
+              class="card-img-top"
+              alt="Plat 2"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Plat 2</h5>
+              <p class="card-text">Description du plat 2.</p>
+              <p class="card-price">€15.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://i.pinimg.com/236x/c4/1e/59/c41e59617204aa0e302d377a38e20dc9.jpg
+                    "
+              class="card-img-top"
+              alt="Plat 3"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Plat 3</h5>
+              <p class="card-text">Description du plat 3.</p>
+              <p class="card-price">€10.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section À propos de nous -->
+    <section class="container my-5">
+      <h2 class="text-center">À propos de nous</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <img
+            src="https://previews.123rf.com/images/emcrea14/emcrea142102/emcrea14210201326/164594890-cr%C3%A9ation-de-logo-de-lettre-rt-avec-concept-de-restaurant-cr%C3%A9ation-de-logo-de-lettre-moderne-avec.jpg"
+            class="img-fluid"
+            alt="À propos"
+          />
+        </div>
+        <div class="col-md-6">
+          <p>Notre restaurant offre une expérience culinaire unique...</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section class="container my-5">
+      <h2 class="text-center">Contactez-nous</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Nom</label>
+          <input type="text" class="form-control" id="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea
+            class="form-control"
+            id="message"
+            rows="3"
+            required
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Envoyer</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-4">
+      <p>&copy; 2024 Restaurant Fictif. Tous droits réservés.</p>
+      <div>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
